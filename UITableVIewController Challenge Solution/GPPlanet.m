@@ -1,13 +1,13 @@
 //
-//  GPViewController.h
+//  GPPlanet.m
 //  UITableVIewController Challenge Solution
 //
 //  Created by AppDev on 4/23/14.
 //  Copyright (c) 2014 Grasta Productions, Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GPPlanet.h"
 
-@interface GPViewController : UITableViewController
+@implementation GPPlanet
 
 @end

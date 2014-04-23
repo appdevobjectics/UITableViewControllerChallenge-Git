@@ -14,13 +14,14 @@
 		362F15481906EC300011A5F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F15471906EC300011A5F9 /* main.m */; };
 		362F154C1906EC310011A5F9 /* GPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F154B1906EC310011A5F9 /* GPAppDelegate.m */; };
 		362F154F1906EC310011A5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362F154D1906EC310011A5F9 /* Main.storyboard */; };
-		362F15521906EC310011A5F9 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F15511906EC310011A5F9 /* GPViewController.m */; };
 		362F15541906EC310011A5F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362F15531906EC310011A5F9 /* Images.xcassets */; };
 		362F155B1906EC310011A5F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362F155A1906EC310011A5F9 /* XCTest.framework */; };
 		362F155C1906EC310011A5F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362F153B1906EC300011A5F9 /* Foundation.framework */; };
 		362F155D1906EC310011A5F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362F153F1906EC300011A5F9 /* UIKit.framework */; };
 		362F15651906EC310011A5F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 362F15631906EC310011A5F9 /* InfoPlist.strings */; };
 		362F15671906EC310011A5F9 /* UITableVIewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F15661906EC310011A5F9 /* UITableVIewController_Challenge_SolutionTests.m */; };
+		362F157219081D0B0011A5F9 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F157119081D0B0011A5F9 /* GPViewController.m */; };
+		362F157519082DA50011A5F9 /* GPPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F157419082DA50011A5F9 /* GPPlanet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		362F154A1906EC310011A5F9 /* GPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegate.h; sourceTree = "<group>"; };
 		362F154B1906EC310011A5F9 /* GPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegate.m; sourceTree = "<group>"; };
 		362F154E1906EC310011A5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		362F15501906EC310011A5F9 /* GPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
-		362F15511906EC310011A5F9 /* GPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
 		362F15531906EC310011A5F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		362F15591906EC310011A5F9 /* UITableVIewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableVIewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362F155A1906EC310011A5F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		362F15621906EC310011A5F9 /* UITableVIewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableVIewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		362F15641906EC310011A5F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		362F15661906EC310011A5F9 /* UITableVIewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableVIewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		362F157019081D0B0011A5F9 /* GPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		362F157119081D0B0011A5F9 /* GPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		362F157319082DA50011A5F9 /* GPPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPlanet.h; sourceTree = "<group>"; };
+		362F157419082DA50011A5F9 /* GPPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPlanet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,12 @@
 		362F15411906EC300011A5F9 /* UITableVIewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				362F157619082DB90011A5F9 /* Model */,
 				362F154A1906EC310011A5F9 /* GPAppDelegate.h */,
 				362F154B1906EC310011A5F9 /* GPAppDelegate.m */,
+				362F157019081D0B0011A5F9 /* GPViewController.h */,
+				362F157119081D0B0011A5F9 /* GPViewController.m */,
 				362F154D1906EC310011A5F9 /* Main.storyboard */,
-				362F15501906EC310011A5F9 /* GPViewController.h */,
-				362F15511906EC310011A5F9 /* GPViewController.m */,
 				362F15531906EC310011A5F9 /* Images.xcassets */,
 				362F15421906EC300011A5F9 /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				362F15631906EC310011A5F9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		362F157619082DB90011A5F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				362F157319082DA50011A5F9 /* GPPlanet.h */,
+				362F157419082DA50011A5F9 /* GPPlanet.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362F157519082DA50011A5F9 /* GPPlanet.m in Sources */,
 				362F15481906EC300011A5F9 /* main.m in Sources */,
-				362F15521906EC310011A5F9 /* GPViewController.m in Sources */,
+				362F157219081D0B0011A5F9 /* GPViewController.m in Sources */,
 				362F154C1906EC310011A5F9 /* GPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
